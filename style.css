@@ -1,9 +1,6 @@
 p {
   font-family: "Courier New", Courier, monospace;
 }
-h1 {
-  font-family: "Courier New", Courier, monospace;
-}
 h2 {
   font-family: "Courier New", Courier, monospace;
 }
@@ -15,9 +12,8 @@ h1 {
   font-size: 3em;
   animation: color-change 1s infinite;
 }
-
 @keyframes color-change {
   0% { color: red; }
   50% { color: blue; }
-  100% { color: red; }
+  100% { color: green; }
 }
